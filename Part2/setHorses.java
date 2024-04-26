@@ -494,7 +494,7 @@ public class setHorses extends javax.swing.JFrame {
         // Create and show the race GUI
         System.out.println(horseData.toString());
         int len = Integer.parseInt(lengthField.getText()) > 130 ? 130 : Integer.parseInt(lengthField.getText());
-        RaceGUI1 raceGUI = new RaceGUI1(horseData, horseConfidence, len);
+        RaceGUI raceGUI = new RaceGUI(horseData, horseConfidence, len);
         raceGUI.setVisible(true);
 
 
