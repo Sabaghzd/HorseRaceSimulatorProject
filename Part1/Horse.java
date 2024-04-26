@@ -1,12 +1,9 @@
 
 /**
+ * Write a description of class Part1.Horse here.
  *
- * The Horse class models individual racehorses, tracking attributes like
- * symbol, name, confidence, distance travelled, and whether they've fallen.
- * It provides methods to adjust confidence, move forward, and manage race progress.
- *
- * @author Saba Ghasemzadeh
- * @version final
+ * @author (your name)
+ * @version (a version number or a date)
  */
 public class Horse
 {
@@ -42,7 +39,7 @@ public class Horse
 
     }
 
-    // Method to adjust confidence during a race
+    // Method to adjust confidence after a race
     public void adjustConfidence(boolean won) {
         if (won) {
             horseConfidence += 0.05; // Increase confidence slightly if won
