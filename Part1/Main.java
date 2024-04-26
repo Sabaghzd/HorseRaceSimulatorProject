@@ -3,9 +3,9 @@ public class Main {
         Race race = new Race(20, 4);
 
         Horse horse1 = new Horse('\u265E', "Harry", 0.8);
-        Horse horse2 = new Horse('\uD83C\uDFC7', "Max", 0.6);
-        Horse horse3 = new Horse('\uD83D\uDC0E', "Sam", 0.7);
-        Horse horse4 = new Horse('\uD83D\uDC34', "Karen", 0.7);
+        Horse horse2 = new Horse('\u2658', "Max", 0.6);
+        Horse horse3 = new Horse('\u265E', "Sam", 0.7);
+        Horse horse4 = new Horse('\u2658', "Karen", 0.7);
 
 
         race.addHorse(horse1, 1);
